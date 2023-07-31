@@ -2,7 +2,7 @@ const { Socket } = require('socket.io')
 
 const app = require('express')()
 const server = require('http').createServer(app)
-const io = require('socket.io')(server, {cors: {origin: 'https://chat-react-node-server.vercel.app/'}})
+const io = require('socket.io')(server, {cors: {origin: 'https://chat-react-node-server-eyq3.vercel.app/'}})
 
 const PORT = 3001
 
